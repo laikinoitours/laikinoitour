@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Laikinoi Tours and Travel</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background-color: #f4f6f9;
+        }
+
+        header {
+            background: url('https://images.unsplash.com/photo-1500530855697-b586d89ba3ee') center/cover;
+            color: white;
+            text-align: center;
+            padding: 80px 20px;
+        }
+
+        header h1 {
+            font-size: 40px;
+            margin: 0;
+        }
+
+        header p {
+            font-size: 18px;
+        }
+
+        nav {
+            background-color: #1f3b4d;
+            padding: 10px;
+            text-align: center;
+        }
+
+        nav a {
+            color: white;
+            margin: 0 15px;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        section {
+            padding: 40px 20px;
+            text-align: center;
+        }
+
+        .services {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 20px;
+            max-width: 1000px;
+            margin: auto;
+        }
+
+        .card {
+            background: white;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+        }
+
+        .btn {
+            display: inline-block;
+            margin-top: 10px;
+            padding: 10px 20px;
+            background: #1f3b4d;
+            color: white;
+            text-decoration: none;
+            border-radius: 5px;
+        }
+
+        footer {
+            background: #1f3b4d;
+            color: white;
+            text-align: center;
+            padding: 15px;
+            margin-top: 30px;
+        }
+    </style>
+</head>
+
+<body>
+
+<header>
+    <h1>Laikinoi Tours and Travel</h1>
+    <p>Your trusted safari partner in Kenya</p>
+</header>
+
+<nav>
+    <a href="#services">Services</a>
+    <a href="#about">About</a>
+    <a href="#contact">Contact</a>
+</nav>
+
+<section id="services">
+    <h2>Our Services</h2>
+    <div class="services">
+
+        <div class="card">
+            <h3>Maasai Mara Safaris</h3>
+            <p>Experience the great wildebeest migration and wildlife.</p>
+        </div>
+
+        <div class="card">
+            <h3>Amboseli Tours</h3>
+            <p>See elephants with Mt. Kilimanjaro views.</p>
+        </div>
+
+        <div class="card">
+            <h3>Transport Services</h3>
+            <p>Comfortable travel across Kenya.</p>
+        </div>
+
+        <div class="card">
+            <h3>Hotel Booking</h3>
+            <p>We help you book the best hotels.</p>
+        </div>
+
+    </div>
+</section>
+
+<section id="about">
+    <h2>About Us</h2>
+    <p>
+        Laikinoi Tours and Travel is a trusted Kenyan safari company offering
+        unforgettable experiences across national parks, game reserves, and coastal destinations.
+    </p>
+</section>
+
+<section id="contact">
+    <h2>Contact Us</h2>
+    <p>📞 +254 XXX XXX XXX</p>
+    <p>📍 Nairobi, Kenya</p>
+    <a class="btn" href="https://wa.me/254XXXXXXXXX">Chat on WhatsApp</a>
+</section>
+
+<footer>
+    <p>© 2026 Laikinoi Tours and Travel. All rights reserved.</p>
+</footer>
+
+</body>
+</html>
